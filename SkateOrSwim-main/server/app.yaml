@@ -1,0 +1,9 @@
+runtime: nodejs20  # or whatever specific version of Node.js you are using
+
+env_variables:
+  NODE_ENV: 'production'
+
+handlers:
+- url: /.*
+  script: auto
+  secure: always
